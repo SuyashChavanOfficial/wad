@@ -1,0 +1,20 @@
+Commands for assignment 2a on windows:
+
+-> mkdir Part-A
+// make directory with name Part-A
+
+• Make a repository on github profile
+
+• Add files in the directory
+
+-> git init 
+// initialise the repository
+
+-> git add .
+// add multiple files
+
+-> git status
+// to check the status of the files
+
+git remote add origin "[github repository url]"
+// set up a connection between your local Git repository and a remote repository
