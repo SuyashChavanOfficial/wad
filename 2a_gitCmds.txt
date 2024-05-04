@@ -25,3 +25,5 @@ Commands for assignment 2a on windows:
 -> git push -u origin main  
 // local main branch is linked to the remote main branch
 
+-> git push
+// once the upstream and the default branch is set, you can use this command
