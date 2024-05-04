@@ -16,5 +16,12 @@ Commands for assignment 2a on windows:
 -> git status
 // to check the status of the files
 
-git remote add origin "[github repository url]"
+-> git remote add origin "[github repository url]"
 // set up a connection between your local Git repository and a remote repository
+
+-> git commit -m "[message]"
+// to commit files with some message
+
+-> git push -u origin main  
+// local main branch is linked to the remote main branch
+
