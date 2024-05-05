@@ -1,0 +1,15 @@
+{
+  "name": "nodedeployment",
+  "version": "1.0.0",
+  "description": "This is 3a practical in which we are going to deploy a static website using node",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suyash",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
