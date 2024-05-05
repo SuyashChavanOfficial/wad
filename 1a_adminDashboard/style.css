@@ -111,3 +111,15 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+@media screen and (max-width: 1050px) {
+    .sidebar li {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sidebar li span{
+        display: none;
+    }
+}
