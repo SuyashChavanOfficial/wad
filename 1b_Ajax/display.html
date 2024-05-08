@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>User Profile</h2>
+        <div id="userProfile">
+            <p><strong>Name:</strong> <span id="userName"></span></p>
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+        </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script>
+        // Retrieve user data from local storage
+        let userData = JSON.parse(localStorage.getItem("currentUser"));
+
+        // Display user data
+        if (userData) {
+            document.getElementById("userName").innerText = userData.name;
+            document.getElementById("userEmail").innerText = userData.email;
+        } else {
+            // Handle case when user data is not available
+            document.getElementById("userProfile").innerHTML = "<p>No user data available.</p>";
+        }
+    </script>
+</body>
+
+</html>

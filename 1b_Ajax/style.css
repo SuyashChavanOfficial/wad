@@ -1,0 +1,23 @@
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url(images/form-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container .card {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.container .card .btn {
+    padding: 5px 10px;
+}
